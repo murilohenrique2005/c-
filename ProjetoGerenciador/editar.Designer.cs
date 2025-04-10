@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(editar));
-            this.TituloEditar = new System.Windows.Forms.Label();
-            this.TituloTarefa = new System.Windows.Forms.Label();
             this.EditarCodigo = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
@@ -47,34 +45,18 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.voltarEditar = new System.Windows.Forms.Button();
             this.buscar = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.nome = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // TituloEditar
-            // 
-            this.TituloEditar.AutoSize = true;
-            this.TituloEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.TituloEditar.Location = new System.Drawing.Point(41, 35);
-            this.TituloEditar.Name = "TituloEditar";
-            this.TituloEditar.Size = new System.Drawing.Size(204, 31);
-            this.TituloEditar.TabIndex = 0;
-            this.TituloEditar.Text = "Editar Atividade";
-            this.TituloEditar.Click += new System.EventHandler(this.TituloEditar_Click);
-            // 
-            // TituloTarefa
-            // 
-            this.TituloTarefa.AutoSize = true;
-            this.TituloTarefa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.TituloTarefa.Location = new System.Drawing.Point(44, 145);
-            this.TituloTarefa.Name = "TituloTarefa";
-            this.TituloTarefa.Size = new System.Drawing.Size(84, 13);
-            this.TituloTarefa.TabIndex = 1;
-            this.TituloTarefa.Text = "Titulo Da Tarefa";
-            this.TituloTarefa.Click += new System.EventHandler(this.TituloTarefa_Click);
             // 
             // EditarCodigo
             // 
             this.EditarCodigo.AutoSize = true;
-            this.EditarCodigo.Location = new System.Drawing.Point(44, 107);
+            this.EditarCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.EditarCodigo.Location = new System.Drawing.Point(535, 161);
             this.EditarCodigo.Name = "EditarCodigo";
             this.EditarCodigo.Size = new System.Drawing.Size(102, 13);
             this.EditarCodigo.TabIndex = 2;
@@ -82,25 +64,28 @@
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(152, 104);
+            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox1.Location = new System.Drawing.Point(498, 177);
             this.maskedTextBox1.Mask = "99";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(133, 20);
+            this.maskedTextBox1.Size = new System.Drawing.Size(88, 26);
             this.maskedTextBox1.TabIndex = 3;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(152, 142);
+            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
+            this.maskedTextBox2.Location = new System.Drawing.Point(498, 220);
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(133, 20);
+            this.maskedTextBox2.Size = new System.Drawing.Size(195, 31);
             this.maskedTextBox2.TabIndex = 4;
             this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             // 
             // descricao
             // 
             this.descricao.AutoSize = true;
-            this.descricao.Location = new System.Drawing.Point(44, 181);
+            this.descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.descricao.Location = new System.Drawing.Point(566, 254);
             this.descricao.Name = "descricao";
             this.descricao.Size = new System.Drawing.Size(55, 13);
             this.descricao.TabIndex = 5;
@@ -109,16 +94,18 @@
             // 
             // DigitarDescricao
             // 
-            this.DigitarDescricao.Location = new System.Drawing.Point(152, 178);
+            this.DigitarDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DigitarDescricao.Location = new System.Drawing.Point(498, 270);
             this.DigitarDescricao.Name = "DigitarDescricao";
-            this.DigitarDescricao.Size = new System.Drawing.Size(133, 20);
+            this.DigitarDescricao.Size = new System.Drawing.Size(195, 31);
             this.DigitarDescricao.TabIndex = 6;
             this.DigitarDescricao.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.DigitarDescricao_MaskInputRejected);
             // 
             // editarDataDeEntrega
             // 
             this.editarDataDeEntrega.AutoSize = true;
-            this.editarDataDeEntrega.Location = new System.Drawing.Point(44, 217);
+            this.editarDataDeEntrega.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.editarDataDeEntrega.Location = new System.Drawing.Point(550, 310);
             this.editarDataDeEntrega.Name = "editarDataDeEntrega";
             this.editarDataDeEntrega.Size = new System.Drawing.Size(87, 13);
             this.editarDataDeEntrega.TabIndex = 7;
@@ -127,9 +114,12 @@
             // 
             // EditarDataAtividade
             // 
-            this.EditarDataAtividade.Location = new System.Drawing.Point(152, 211);
+            this.EditarDataAtividade.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.EditarDataAtividade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EditarDataAtividade.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.EditarDataAtividade.Location = new System.Drawing.Point(498, 326);
             this.EditarDataAtividade.Name = "EditarDataAtividade";
-            this.EditarDataAtividade.Size = new System.Drawing.Size(228, 20);
+            this.EditarDataAtividade.Size = new System.Drawing.Size(195, 26);
             this.EditarDataAtividade.TabIndex = 8;
             this.EditarDataAtividade.Value = new System.DateTime(2025, 7, 30, 0, 0, 0, 0);
             this.EditarDataAtividade.ValueChanged += new System.EventHandler(this.EditarDataAtividade_ValueChanged);
@@ -137,7 +127,8 @@
             // Prioridade
             // 
             this.Prioridade.AutoSize = true;
-            this.Prioridade.Location = new System.Drawing.Point(44, 252);
+            this.Prioridade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.Prioridade.Location = new System.Drawing.Point(566, 459);
             this.Prioridade.Name = "Prioridade";
             this.Prioridade.Size = new System.Drawing.Size(54, 13);
             this.Prioridade.TabIndex = 9;
@@ -146,11 +137,13 @@
             // 
             // EditarBotão
             // 
-            this.EditarBotão.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.EditarBotão.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
+            this.EditarBotão.FlatAppearance.BorderSize = 0;
+            this.EditarBotão.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditarBotão.ForeColor = System.Drawing.Color.White;
-            this.EditarBotão.Location = new System.Drawing.Point(47, 351);
+            this.EditarBotão.Location = new System.Drawing.Point(473, 527);
             this.EditarBotão.Name = "EditarBotão";
-            this.EditarBotão.Size = new System.Drawing.Size(153, 35);
+            this.EditarBotão.Size = new System.Drawing.Size(252, 27);
             this.EditarBotão.TabIndex = 11;
             this.EditarBotão.Text = "Editar";
             this.EditarBotão.UseVisualStyleBackColor = false;
@@ -159,7 +152,8 @@
             // turma
             // 
             this.turma.AutoSize = true;
-            this.turma.Location = new System.Drawing.Point(44, 284);
+            this.turma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.turma.Location = new System.Drawing.Point(575, 407);
             this.turma.Name = "turma";
             this.turma.Size = new System.Drawing.Size(37, 13);
             this.turma.TabIndex = 12;
@@ -168,6 +162,7 @@
             // 
             // EditarTurma
             // 
+            this.EditarTurma.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.EditarTurma.FormattingEnabled = true;
             this.EditarTurma.Items.AddRange(new object[] {
             "6º ANO",
@@ -177,73 +172,118 @@
             "Ensino Médio - 1º Ano",
             "Ensino Médio - 2º Ano",
             "Ensino Médio - 3º Ano "});
-            this.EditarTurma.Location = new System.Drawing.Point(152, 284);
+            this.EditarTurma.Location = new System.Drawing.Point(498, 423);
             this.EditarTurma.Name = "EditarTurma";
-            this.EditarTurma.Size = new System.Drawing.Size(121, 21);
+            this.EditarTurma.Size = new System.Drawing.Size(195, 33);
             this.EditarTurma.TabIndex = 13;
             this.EditarTurma.SelectedIndexChanged += new System.EventHandler(this.EditarTurma_SelectedIndexChanged);
             // 
             // EditarPrioridadew
             // 
+            this.EditarPrioridadew.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.EditarPrioridadew.FormattingEnabled = true;
             this.EditarPrioridadew.Items.AddRange(new object[] {
             "Baixa",
             "Média",
             "Alta"});
-            this.EditarPrioridadew.Location = new System.Drawing.Point(152, 252);
+            this.EditarPrioridadew.Location = new System.Drawing.Point(498, 475);
             this.EditarPrioridadew.Name = "EditarPrioridadew";
-            this.EditarPrioridadew.Size = new System.Drawing.Size(121, 21);
+            this.EditarPrioridadew.Size = new System.Drawing.Size(195, 33);
             this.EditarPrioridadew.TabIndex = 14;
             this.EditarPrioridadew.SelectedIndexChanged += new System.EventHandler(this.EditarPrioridadew_SelectedIndexChanged);
             // 
             // EditarStatus
             // 
             this.EditarStatus.AutoSize = true;
-            this.EditarStatus.Location = new System.Drawing.Point(46, 321);
+            this.EditarStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.EditarStatus.Location = new System.Drawing.Point(575, 355);
             this.EditarStatus.Name = "EditarStatus";
             this.EditarStatus.Size = new System.Drawing.Size(37, 13);
             this.EditarStatus.TabIndex = 15;
             this.EditarStatus.Text = "Status";
+            this.EditarStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.EditarStatus.Click += new System.EventHandler(this.EditarStatus_Click);
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Pendente",
             "Em Andamento",
             "Concluida"});
-            this.comboBox1.Location = new System.Drawing.Point(107, 318);
+            this.comboBox1.Location = new System.Drawing.Point(498, 371);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(195, 33);
             this.comboBox1.TabIndex = 16;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // voltarEditar
             // 
-            this.voltarEditar.Location = new System.Drawing.Point(225, 357);
+            this.voltarEditar.BackColor = System.Drawing.Color.Red;
+            this.voltarEditar.FlatAppearance.BorderSize = 0;
+            this.voltarEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.voltarEditar.ForeColor = System.Drawing.Color.White;
+            this.voltarEditar.Location = new System.Drawing.Point(473, 560);
             this.voltarEditar.Name = "voltarEditar";
-            this.voltarEditar.Size = new System.Drawing.Size(117, 23);
+            this.voltarEditar.Size = new System.Drawing.Size(252, 27);
             this.voltarEditar.TabIndex = 17;
             this.voltarEditar.Text = "Voltar";
-            this.voltarEditar.UseVisualStyleBackColor = true;
+            this.voltarEditar.UseVisualStyleBackColor = false;
             this.voltarEditar.Click += new System.EventHandler(this.voltarEditar_Click);
             // 
             // buscar
             // 
-            this.buscar.Location = new System.Drawing.Point(305, 102);
+            this.buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
+            this.buscar.FlatAppearance.BorderSize = 0;
+            this.buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buscar.ForeColor = System.Drawing.Color.White;
+            this.buscar.Location = new System.Drawing.Point(592, 177);
             this.buscar.Name = "buscar";
-            this.buscar.Size = new System.Drawing.Size(75, 23);
+            this.buscar.Size = new System.Drawing.Size(60, 23);
             this.buscar.TabIndex = 18;
             this.buscar.Text = "Buscar";
-            this.buscar.UseVisualStyleBackColor = true;
+            this.buscar.UseVisualStyleBackColor = false;
             this.buscar.Click += new System.EventHandler(this.buscar_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ProjetoGerenciador.Properties.Resources.Black_and_Gold_Simple_Online_Academy_Logo_removebg_preview_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(458, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(254, 147);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-5, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(394, 664);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // nome
+            // 
+            this.nome.AutoSize = true;
+            this.nome.Location = new System.Drawing.Point(548, 205);
+            this.nome.Name = "nome";
+            this.nome.Size = new System.Drawing.Size(99, 13);
+            this.nome.TabIndex = 22;
+            this.nome.Text = "Nome Do Professor";
             // 
             // editar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(800, 661);
+            this.Controls.Add(this.nome);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buscar);
             this.Controls.Add(this.voltarEditar);
             this.Controls.Add(this.comboBox1);
@@ -260,21 +300,18 @@
             this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.EditarCodigo);
-            this.Controls.Add(this.TituloTarefa);
-            this.Controls.Add(this.TituloEditar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "editar";
             this.Text = "editar";
             this.Load += new System.EventHandler(this.editar_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label TituloEditar;
-        private System.Windows.Forms.Label TituloTarefa;
         private System.Windows.Forms.Label EditarCodigo;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
@@ -291,5 +328,8 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button voltarEditar;
         private System.Windows.Forms.Button buscar;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label nome;
     }
 }

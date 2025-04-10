@@ -28,7 +28,7 @@ namespace ProjetoGerenciador
             try
             {
                 conexao.Open();//Tentando conectar com o banco
-                MessageBox.Show("Conectado");
+                MessageBox.Show("");
 
             }
             catch (Exception erro)
@@ -170,7 +170,7 @@ namespace ProjetoGerenciador
          {
             string query = $"update atividades set {campo} = '{dado}' where codigo = '{codigo}'";
             MySqlCommand sql = new MySqlCommand(query, conexao);
-            string resultado = sql.ExecuteNonQuery() + "Atualizado!";
+            string resultado = sql.ExecuteNonQuery() + " Atividade Atualizada com Sucesso!";
             return resultado;
          }// FIM DO MÉTODO
 
@@ -179,7 +179,7 @@ namespace ProjetoGerenciador
         {
             string query = $"delete from atividades where codigo = '{codigo}'";
             MySqlCommand sql = new MySqlCommand(query, conexao);
-            string resultado = sql.ExecuteNonQuery() + " Deletado";
+            string resultado = sql.ExecuteNonQuery() + " Atividade Atualizada com Sucesso!";
             return resultado;
         } // fim do excluir
 

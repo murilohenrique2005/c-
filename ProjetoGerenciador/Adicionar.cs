@@ -121,5 +121,10 @@ namespace ProjetoGerenciador
         {
 
         }
+
+        private void Voltar_Click(object sender, EventArgs e)// Voltar
+        {
+            this.Close();
+        }
     }// FIM DA CLASSE
 }//FIM DO PROJETO

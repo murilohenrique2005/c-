@@ -45,5 +45,10 @@ namespace ProjetoGerenciador
         {
             this.Close();
         }// FIM DO VOLTAR
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

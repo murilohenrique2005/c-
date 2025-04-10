@@ -56,22 +56,27 @@
             // 
             // botaoSair
             // 
-            this.botaoSair.Location = new System.Drawing.Point(175, 418);
+            this.botaoSair.BackColor = System.Drawing.Color.Blue;
+            this.botaoSair.FlatAppearance.BorderSize = 0;
+            this.botaoSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoSair.ForeColor = System.Drawing.Color.White;
+            this.botaoSair.Location = new System.Drawing.Point(175, 414);
             this.botaoSair.Name = "botaoSair";
-            this.botaoSair.Size = new System.Drawing.Size(447, 20);
+            this.botaoSair.Size = new System.Drawing.Size(453, 27);
             this.botaoSair.TabIndex = 2;
             this.botaoSair.Text = "Voltar";
-            this.botaoSair.UseVisualStyleBackColor = true;
+            this.botaoSair.UseVisualStyleBackColor = false;
             this.botaoSair.Click += new System.EventHandler(this.botaoSair_Click);
             // 
             // Listar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 661);
             this.Controls.Add(this.botaoSair);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.GerenciadorDeTarefas);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Listar";
             this.Text = "Listar";

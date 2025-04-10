@@ -63,6 +63,56 @@ namespace ProjetoGerenciador.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap azul {
+            get {
+                object obj = ResourceManager.GetObject("azul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Black_and_Gold_Simple_Online_Academy_Logo_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Black_and_Gold_Simple_Online_Academy_Logo_removebg_preview_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Black_and_Gold_Simple_Online_Academy_Logo_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap estudante_sorridente_com_notebook_smiling_student_with_laptop_782430_52 {
+            get {
+                object obj = ResourceManager.GetObject("estudante-sorridente-com-notebook-smiling-student-with-laptop_782430-52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fotoex {
             get {
                 object obj = ResourceManager.GetObject("fotoex", resourceCulture);
@@ -73,9 +123,50 @@ namespace ProjetoGerenciador.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap homemroxo {
+            get {
+                object obj = ResourceManager.GetObject("homemroxo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logopreta {
+            get {
+                object obj = ResourceManager.GetObject("logopreta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nulherroxo {
+            get {
+                object obj = ResourceManager.GetObject("nulherroxo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pencil {
             get {
                 object obj = ResourceManager.GetObject("pencil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap portrait_happy_casual_girl_student_with_backpack_writing_notepad_while_standing_with_books_isolated_ {
+            get {
+                object obj = ResourceManager.GetObject("portrait-happy-casual-girl-student-with-backpack-writing-notepad-while-standing-w" +
+                        "ith-books-isolated-", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +187,16 @@ namespace ProjetoGerenciador.Properties {
         internal static System.Drawing.Bitmap senac_1__1_ {
             get {
                 object obj = ResourceManager.GetObject("senac_1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Senac_logo_svg {
+            get {
+                object obj = ResourceManager.GetObject("Senac_logo.svg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

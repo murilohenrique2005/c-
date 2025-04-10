@@ -200,5 +200,35 @@
   <ItemGroup>
     <None Include="Resources\pencil.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Senac_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logopreta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homemroxo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nulherroxo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portrait-happy-casual-girl-student-with-backpack-writing-notepad-while-standing-with-books-isolated-.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudante-sorridente-com-notebook-smiling-student-with-laptop_782430-52.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
