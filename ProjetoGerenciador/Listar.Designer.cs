@@ -38,12 +38,12 @@
             // GerenciadorDeTarefas
             // 
             this.GerenciadorDeTarefas.AutoSize = true;
-            this.GerenciadorDeTarefas.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
-            this.GerenciadorDeTarefas.Location = new System.Drawing.Point(261, 26);
+            this.GerenciadorDeTarefas.Font = new System.Drawing.Font("Dubai", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GerenciadorDeTarefas.Location = new System.Drawing.Point(236, 22);
             this.GerenciadorDeTarefas.Name = "GerenciadorDeTarefas";
-            this.GerenciadorDeTarefas.Size = new System.Drawing.Size(270, 32);
+            this.GerenciadorDeTarefas.Size = new System.Drawing.Size(327, 45);
             this.GerenciadorDeTarefas.TabIndex = 0;
-            this.GerenciadorDeTarefas.Text = "Consulta De Lições";
+            this.GerenciadorDeTarefas.Text = "Visualização de Atividades";
             this.GerenciadorDeTarefas.Click += new System.EventHandler(this.GerenciadorDeTarefas_Click);
             // 
             // dataGridView1
@@ -56,7 +56,7 @@
             // 
             // botaoSair
             // 
-            this.botaoSair.BackColor = System.Drawing.Color.Blue;
+            this.botaoSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(135)))), ((int)(((byte)(245)))));
             this.botaoSair.FlatAppearance.BorderSize = 0;
             this.botaoSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botaoSair.ForeColor = System.Drawing.Color.White;

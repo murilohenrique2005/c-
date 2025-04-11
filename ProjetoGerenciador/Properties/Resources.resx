@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fotoex" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fotoex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,8 +145,11 @@
   <data name="Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="estudante-sorridente-com-notebook-smiling-student-with-laptop_782430-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estudante-sorridente-com-notebook-smiling-student-with-laptop_782430-52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homem-sorridente-de-vista-lateral-segurando-smartphone_23-2149659098" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homem-sorridente-de-vista-lateral-segurando-smartphone_23-2149659098.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="senac_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\senac_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,10 +160,13 @@
   <data name="Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Black_and_Gold_Simple_Online_Academy_Logo-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fotorosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fotorosa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="portrait-happy-casual-girl-student-with-backpack-writing-notepad-while-standing-with-books-isolated-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\portrait-happy-casual-girl-student-with-backpack-writing-notepad-while-standing-with-books-isolated-.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="estudante-sorridente-com-notebook-smiling-student-with-laptop_782430-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\estudante-sorridente-com-notebook-smiling-student-with-laptop_782430-52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="retrato-de-um-menino-segurando-sua-mochila-e-seus-fones-de-ouvido_23-2149260553" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retrato-de-um-menino-segurando-sua-mochila-e-seus-fones-de-ouvido_23-2149260553.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

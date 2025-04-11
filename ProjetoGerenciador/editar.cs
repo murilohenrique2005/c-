@@ -19,8 +19,8 @@ namespace ProjetoGerenciador
             atu = new DAO();
             InitializeComponent();
             maskedTextBox1.ReadOnly = false;
-            maskedTextBox2.ReadOnly = true;
-            DigitarDescricao.ReadOnly = true;
+            maskedTextBox2.ReadOnly = false;
+            DigitarDescricao.ReadOnly = false;
             EditarDataAtividade.Enabled = true;
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
@@ -96,11 +96,11 @@ namespace ProjetoGerenciador
 
         private void buscar_Click(object sender, EventArgs e)
         {
+           
             if (maskedTextBox1.Text == "")
             {
                 maskedTextBox2.Text = "Informe o Código"; // Professor
                 DigitarDescricao.Text = "Informe o Código";
-                EditarDataAtividade.Text = "Informe o Código";
                 EditarPrioridadew.Text = "Informe um Código";
                 EditarTurma.Text = "Informe um Código";
                 comboBox1.Text = "Informe um Código";

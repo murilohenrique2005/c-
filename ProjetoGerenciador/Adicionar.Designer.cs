@@ -54,9 +54,9 @@
             // NomeProfessor
             // 
             this.NomeProfessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NomeProfessor.Location = new System.Drawing.Point(509, 284);
+            this.NomeProfessor.Location = new System.Drawing.Point(474, 284);
             this.NomeProfessor.Name = "NomeProfessor";
-            this.NomeProfessor.Size = new System.Drawing.Size(195, 26);
+            this.NomeProfessor.Size = new System.Drawing.Size(261, 26);
             this.NomeProfessor.TabIndex = 1;
             this.NomeProfessor.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.NomeProfessor_MaskInputRejected);
             // 
@@ -83,9 +83,9 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(509, 329);
+            this.maskedTextBox1.Location = new System.Drawing.Point(474, 329);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(195, 26);
+            this.maskedTextBox1.Size = new System.Drawing.Size(261, 26);
             this.maskedTextBox1.TabIndex = 4;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
@@ -114,9 +114,9 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(509, 374);
+            this.dateTimePicker1.Location = new System.Drawing.Point(474, 374);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(195, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(261, 22);
             this.dateTimePicker1.TabIndex = 8;
             this.dateTimePicker1.Value = new System.DateTime(2025, 7, 30, 15, 30, 0, 0);
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
@@ -129,9 +129,9 @@
             "Baixa",
             "Média",
             "Alta"});
-            this.Escolha.Location = new System.Drawing.Point(509, 415);
+            this.Escolha.Location = new System.Drawing.Point(474, 415);
             this.Escolha.Name = "Escolha";
-            this.Escolha.Size = new System.Drawing.Size(195, 28);
+            this.Escolha.Size = new System.Drawing.Size(261, 28);
             this.Escolha.TabIndex = 9;
             this.Escolha.SelectedIndexChanged += new System.EventHandler(this.Escolha_SelectedIndexChanged);
             // 
@@ -142,9 +142,9 @@
             this.enviarAtividade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.enviarAtividade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.enviarAtividade.ForeColor = System.Drawing.Color.White;
-            this.enviarAtividade.Location = new System.Drawing.Point(483, 554);
+            this.enviarAtividade.Location = new System.Drawing.Point(474, 554);
             this.enviarAtividade.Name = "enviarAtividade";
-            this.enviarAtividade.Size = new System.Drawing.Size(252, 27);
+            this.enviarAtividade.Size = new System.Drawing.Size(261, 27);
             this.enviarAtividade.TabIndex = 10;
             this.enviarAtividade.Text = "Enviar Atividade";
             this.enviarAtividade.UseVisualStyleBackColor = false;
@@ -163,10 +163,10 @@
             // CodAtividade
             // 
             this.CodAtividade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CodAtividade.Location = new System.Drawing.Point(509, 239);
-            this.CodAtividade.Mask = "99";
+            this.CodAtividade.Location = new System.Drawing.Point(474, 239);
+            this.CodAtividade.Mask = "9999";
             this.CodAtividade.Name = "CodAtividade";
-            this.CodAtividade.Size = new System.Drawing.Size(88, 26);
+            this.CodAtividade.Size = new System.Drawing.Size(128, 26);
             this.CodAtividade.TabIndex = 12;
             this.CodAtividade.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.CodAtividade_MaskInputRejected);
             // 
@@ -192,9 +192,9 @@
             "Ensino Médio - 1º Ano",
             "Ensino Médio - 2º Ano",
             "Ensino Médio - 3º Ano "});
-            this.comboBox1.Location = new System.Drawing.Point(509, 462);
+            this.comboBox1.Location = new System.Drawing.Point(474, 462);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(195, 28);
+            this.comboBox1.Size = new System.Drawing.Size(261, 28);
             this.comboBox1.TabIndex = 14;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -217,9 +217,9 @@
             "Pendente",
             "Em Andamento",
             "Concluida"});
-            this.comboBox2.Location = new System.Drawing.Point(509, 509);
+            this.comboBox2.Location = new System.Drawing.Point(474, 509);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(195, 28);
+            this.comboBox2.Size = new System.Drawing.Size(261, 28);
             this.comboBox2.TabIndex = 16;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
@@ -228,9 +228,9 @@
             this.Voltar.BackColor = System.Drawing.Color.Red;
             this.Voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Voltar.ForeColor = System.Drawing.Color.White;
-            this.Voltar.Location = new System.Drawing.Point(483, 587);
+            this.Voltar.Location = new System.Drawing.Point(474, 587);
             this.Voltar.Name = "Voltar";
-            this.Voltar.Size = new System.Drawing.Size(252, 27);
+            this.Voltar.Size = new System.Drawing.Size(261, 27);
             this.Voltar.TabIndex = 17;
             this.Voltar.Text = "Voltar";
             this.Voltar.UseVisualStyleBackColor = false;
@@ -255,6 +255,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Adicionar
             // 
@@ -282,7 +283,7 @@
             this.Controls.Add(this.NomeProfessor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Adicionar";
-            this.Text = "Adicionar";
+            this.Text = "6";
             this.Load += new System.EventHandler(this.Adicionar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -45,9 +45,9 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.voltarEditar = new System.Windows.Forms.Button();
             this.buscar = new System.Windows.Forms.Button();
+            this.nome = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.nome = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -65,19 +65,19 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.maskedTextBox1.Location = new System.Drawing.Point(498, 177);
-            this.maskedTextBox1.Mask = "99";
+            this.maskedTextBox1.Location = new System.Drawing.Point(473, 177);
+            this.maskedTextBox1.Mask = "9999";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(88, 26);
+            this.maskedTextBox1.Size = new System.Drawing.Size(128, 26);
             this.maskedTextBox1.TabIndex = 3;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // maskedTextBox2
             // 
             this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.maskedTextBox2.Location = new System.Drawing.Point(498, 220);
+            this.maskedTextBox2.Location = new System.Drawing.Point(473, 221);
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(195, 31);
+            this.maskedTextBox2.Size = new System.Drawing.Size(261, 31);
             this.maskedTextBox2.TabIndex = 4;
             this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             // 
@@ -85,7 +85,7 @@
             // 
             this.descricao.AutoSize = true;
             this.descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.descricao.Location = new System.Drawing.Point(566, 254);
+            this.descricao.Location = new System.Drawing.Point(572, 254);
             this.descricao.Name = "descricao";
             this.descricao.Size = new System.Drawing.Size(55, 13);
             this.descricao.TabIndex = 5;
@@ -95,9 +95,9 @@
             // DigitarDescricao
             // 
             this.DigitarDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DigitarDescricao.Location = new System.Drawing.Point(498, 270);
+            this.DigitarDescricao.Location = new System.Drawing.Point(473, 270);
             this.DigitarDescricao.Name = "DigitarDescricao";
-            this.DigitarDescricao.Size = new System.Drawing.Size(195, 31);
+            this.DigitarDescricao.Size = new System.Drawing.Size(261, 31);
             this.DigitarDescricao.TabIndex = 6;
             this.DigitarDescricao.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.DigitarDescricao_MaskInputRejected);
             // 
@@ -105,7 +105,7 @@
             // 
             this.editarDataDeEntrega.AutoSize = true;
             this.editarDataDeEntrega.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.editarDataDeEntrega.Location = new System.Drawing.Point(550, 310);
+            this.editarDataDeEntrega.Location = new System.Drawing.Point(557, 310);
             this.editarDataDeEntrega.Name = "editarDataDeEntrega";
             this.editarDataDeEntrega.Size = new System.Drawing.Size(87, 13);
             this.editarDataDeEntrega.TabIndex = 7;
@@ -117,9 +117,9 @@
             this.EditarDataAtividade.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.EditarDataAtividade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditarDataAtividade.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.EditarDataAtividade.Location = new System.Drawing.Point(498, 326);
+            this.EditarDataAtividade.Location = new System.Drawing.Point(473, 326);
             this.EditarDataAtividade.Name = "EditarDataAtividade";
-            this.EditarDataAtividade.Size = new System.Drawing.Size(195, 26);
+            this.EditarDataAtividade.Size = new System.Drawing.Size(261, 26);
             this.EditarDataAtividade.TabIndex = 8;
             this.EditarDataAtividade.Value = new System.DateTime(2025, 7, 30, 0, 0, 0, 0);
             this.EditarDataAtividade.ValueChanged += new System.EventHandler(this.EditarDataAtividade_ValueChanged);
@@ -128,7 +128,7 @@
             // 
             this.Prioridade.AutoSize = true;
             this.Prioridade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.Prioridade.Location = new System.Drawing.Point(566, 459);
+            this.Prioridade.Location = new System.Drawing.Point(572, 459);
             this.Prioridade.Name = "Prioridade";
             this.Prioridade.Size = new System.Drawing.Size(54, 13);
             this.Prioridade.TabIndex = 9;
@@ -153,7 +153,7 @@
             // 
             this.turma.AutoSize = true;
             this.turma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.turma.Location = new System.Drawing.Point(575, 407);
+            this.turma.Location = new System.Drawing.Point(579, 407);
             this.turma.Name = "turma";
             this.turma.Size = new System.Drawing.Size(37, 13);
             this.turma.TabIndex = 12;
@@ -172,9 +172,9 @@
             "Ensino Médio - 1º Ano",
             "Ensino Médio - 2º Ano",
             "Ensino Médio - 3º Ano "});
-            this.EditarTurma.Location = new System.Drawing.Point(498, 423);
+            this.EditarTurma.Location = new System.Drawing.Point(473, 423);
             this.EditarTurma.Name = "EditarTurma";
-            this.EditarTurma.Size = new System.Drawing.Size(195, 33);
+            this.EditarTurma.Size = new System.Drawing.Size(261, 33);
             this.EditarTurma.TabIndex = 13;
             this.EditarTurma.SelectedIndexChanged += new System.EventHandler(this.EditarTurma_SelectedIndexChanged);
             // 
@@ -186,9 +186,9 @@
             "Baixa",
             "Média",
             "Alta"});
-            this.EditarPrioridadew.Location = new System.Drawing.Point(498, 475);
+            this.EditarPrioridadew.Location = new System.Drawing.Point(473, 475);
             this.EditarPrioridadew.Name = "EditarPrioridadew";
-            this.EditarPrioridadew.Size = new System.Drawing.Size(195, 33);
+            this.EditarPrioridadew.Size = new System.Drawing.Size(261, 33);
             this.EditarPrioridadew.TabIndex = 14;
             this.EditarPrioridadew.SelectedIndexChanged += new System.EventHandler(this.EditarPrioridadew_SelectedIndexChanged);
             // 
@@ -196,7 +196,7 @@
             // 
             this.EditarStatus.AutoSize = true;
             this.EditarStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.EditarStatus.Location = new System.Drawing.Point(575, 355);
+            this.EditarStatus.Location = new System.Drawing.Point(580, 355);
             this.EditarStatus.Name = "EditarStatus";
             this.EditarStatus.Size = new System.Drawing.Size(37, 13);
             this.EditarStatus.TabIndex = 15;
@@ -212,9 +212,9 @@
             "Pendente",
             "Em Andamento",
             "Concluida"});
-            this.comboBox1.Location = new System.Drawing.Point(498, 371);
+            this.comboBox1.Location = new System.Drawing.Point(473, 371);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(195, 33);
+            this.comboBox1.Size = new System.Drawing.Size(261, 33);
             this.comboBox1.TabIndex = 16;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -238,13 +238,22 @@
             this.buscar.FlatAppearance.BorderSize = 0;
             this.buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buscar.ForeColor = System.Drawing.Color.White;
-            this.buscar.Location = new System.Drawing.Point(592, 177);
+            this.buscar.Location = new System.Drawing.Point(607, 177);
             this.buscar.Name = "buscar";
-            this.buscar.Size = new System.Drawing.Size(60, 23);
+            this.buscar.Size = new System.Drawing.Size(74, 25);
             this.buscar.TabIndex = 18;
             this.buscar.Text = "Buscar";
             this.buscar.UseVisualStyleBackColor = false;
             this.buscar.Click += new System.EventHandler(this.buscar_Click);
+            // 
+            // nome
+            // 
+            this.nome.AutoSize = true;
+            this.nome.Location = new System.Drawing.Point(553, 205);
+            this.nome.Name = "nome";
+            this.nome.Size = new System.Drawing.Size(99, 13);
+            this.nome.TabIndex = 22;
+            this.nome.Text = "Nome Do Professor";
             // 
             // pictureBox2
             // 
@@ -265,15 +274,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
-            // 
-            // nome
-            // 
-            this.nome.AutoSize = true;
-            this.nome.Location = new System.Drawing.Point(548, 205);
-            this.nome.Name = "nome";
-            this.nome.Size = new System.Drawing.Size(99, 13);
-            this.nome.TabIndex = 22;
-            this.nome.Text = "Nome Do Professor";
             // 
             // editar
             // 

@@ -126,5 +126,10 @@ namespace ProjetoGerenciador
         {
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }// FIM DA CLASSE
 }//FIM DO PROJETO

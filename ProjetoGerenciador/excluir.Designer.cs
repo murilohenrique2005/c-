@@ -45,7 +45,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(155, 415);
+            this.label1.Location = new System.Drawing.Point(154, 415);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 20);
             this.label1.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(164, 337);
+            this.label2.Location = new System.Drawing.Point(163, 337);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 20);
             this.label2.TabIndex = 3;
@@ -67,10 +67,10 @@
             this.maskedTextBox1.BackColor = System.Drawing.Color.White;
             this.maskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.maskedTextBox1.Location = new System.Drawing.Point(98, 360);
-            this.maskedTextBox1.Mask = "99";
+            this.maskedTextBox1.Location = new System.Drawing.Point(65, 360);
+            this.maskedTextBox1.Mask = "9999";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(88, 26);
+            this.maskedTextBox1.Size = new System.Drawing.Size(128, 26);
             this.maskedTextBox1.TabIndex = 4;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
@@ -78,9 +78,9 @@
             // 
             this.exclusaotexto.BackColor = System.Drawing.Color.White;
             this.exclusaotexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.exclusaotexto.Location = new System.Drawing.Point(98, 438);
+            this.exclusaotexto.Location = new System.Drawing.Point(65, 438);
             this.exclusaotexto.Name = "exclusaotexto";
-            this.exclusaotexto.Size = new System.Drawing.Size(196, 26);
+            this.exclusaotexto.Size = new System.Drawing.Size(261, 26);
             this.exclusaotexto.TabIndex = 2;
             this.exclusaotexto.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.exclusaotexto_MaskInputRejected);
             // 
@@ -117,7 +117,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::ProjetoGerenciador.Properties.Resources.estudante_sorridente_com_notebook_smiling_student_with_laptop_782430_52;
+            this.pictureBox1.Image = global::ProjetoGerenciador.Properties.Resources.fotorosa;
             this.pictureBox1.Location = new System.Drawing.Point(407, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(394, 664);

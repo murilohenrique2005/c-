@@ -230,5 +230,14 @@
   <ItemGroup>
     <None Include="Resources\estudante-sorridente-com-notebook-smiling-student-with-laptop_782430-52.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotorosa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homem-sorridente-de-vista-lateral-segurando-smartphone_23-2149659098.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retrato-de-um-menino-segurando-sua-mochila-e-seus-fones-de-ouvido_23-2149260553.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

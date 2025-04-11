@@ -123,6 +123,26 @@ namespace ProjetoGerenciador.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fotorosa {
+            get {
+                object obj = ResourceManager.GetObject("fotorosa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap homem_sorridente_de_vista_lateral_segurando_smartphone_23_2149659098 {
+            get {
+                object obj = ResourceManager.GetObject("homem-sorridente-de-vista-lateral-segurando-smartphone_23-2149659098", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap homemroxo {
             get {
                 object obj = ResourceManager.GetObject("homemroxo", resourceCulture);
@@ -167,6 +187,16 @@ namespace ProjetoGerenciador.Properties {
             get {
                 object obj = ResourceManager.GetObject("portrait-happy-casual-girl-student-with-backpack-writing-notepad-while-standing-w" +
                         "ith-books-isolated-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap retrato_de_um_menino_segurando_sua_mochila_e_seus_fones_de_ouvido_23_2149260553 {
+            get {
+                object obj = ResourceManager.GetObject("retrato-de-um-menino-segurando-sua-mochila-e-seus-fones-de-ouvido_23-2149260553", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
