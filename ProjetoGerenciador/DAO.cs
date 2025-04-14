@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,7 +43,7 @@ namespace ProjetoGerenciador
         {
             string inserir = $"Insert atividades(codigo, nomeprofessor, descricao, dataentrega, prioridade, turma, statusAtividade) values('{codigo}','{nomeprofessor}','{descricao}', '{dataentrega}','{priodidade}','{turma}','{statusAtividade}')";
             MySqlCommand sql = new MySqlCommand(inserir, conexao);
-            string resultado = sql.ExecuteNonQuery() + " Executado!";
+            string resultado = sql.ExecuteNonQuery() + "";
             return resultado;
         }// FIM DO METODO INSERIR
 
@@ -182,6 +183,17 @@ namespace ProjetoGerenciador
             string resultado = sql.ExecuteNonQuery() + " Atividade Atualizada com Sucesso!";
             return resultado;
         } // fim do excluir
+
+        public bool CodigoExiste(int codigo)
+        {
+            string query = "SELECT COUNT(*) FROM atividades WHERE codigo = @codigo";
+            MySqlCommand cmd = new MySqlCommand(query, conexao);
+            cmd.Parameters.AddWithValue("@codigo", codigo);
+            int count = Convert.ToInt32(cmd.ExecuteScalar());
+            return count > 0;
+        }
+
+
 
     }//fim da classe
 }//fim da namespace

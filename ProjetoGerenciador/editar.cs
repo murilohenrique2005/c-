@@ -83,10 +83,6 @@ namespace ProjetoGerenciador
             atu.Atualizar(codigo, "statusAtividade", statusAtividade);
             MessageBox.Show("Dados Atualizados!");
             this.Close();
-
-
-
-
         }// FIM DO BOTÃO EDITAR
 
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
@@ -96,11 +92,11 @@ namespace ProjetoGerenciador
 
         private void buscar_Click(object sender, EventArgs e)
         {
-           
             if (maskedTextBox1.Text == "")
             {
                 maskedTextBox2.Text = "Informe o Código"; // Professor
                 DigitarDescricao.Text = "Informe o Código";
+                EditarDataAtividade.Text = "informe o Código";
                 EditarPrioridadew.Text = "Informe um Código";
                 EditarTurma.Text = "Informe um Código";
                 comboBox1.Text = "Informe um Código";
@@ -109,13 +105,19 @@ namespace ProjetoGerenciador
             {
                 int codigo = Convert.ToInt32(maskedTextBox1.Text);
 
-                maskedTextBox2.Text = atu.RetornarNome(codigo);//Preechendo o campo
-                DigitarDescricao.Text = atu.RetornarDescricao(codigo);
-                EditarDataAtividade.Text = atu.RetornarData(codigo);
-                EditarPrioridadew.Text = atu.RetornarPrioridade(codigo);
-                EditarTurma.Text = atu.RetornarTurma(codigo);
-                comboBox1.Text = atu.RetornarStatus(codigo);
-
+                if (atu.CodigoExiste(codigo))
+                {
+                    maskedTextBox2.Text = atu.RetornarNome(codigo); // Preenchendo o campo
+                    DigitarDescricao.Text = atu.RetornarDescricao(codigo);
+                    EditarDataAtividade.Text = atu.RetornarData(codigo);
+                    EditarPrioridadew.Text = atu.RetornarPrioridade(codigo);
+                    EditarTurma.Text = atu.RetornarTurma(codigo);
+                    comboBox1.Text = atu.RetornarStatus(codigo);
+                }
+                else
+                {
+                    MessageBox.Show("O código informado não existe no banco de dados.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
         }
 
@@ -123,8 +125,6 @@ namespace ProjetoGerenciador
         {
 
         }
-
-        
 
         private void turma_Click(object sender, EventArgs e)// TURMA
         {
@@ -156,6 +156,5 @@ namespace ProjetoGerenciador
             this.Close();
         }
 
-       
     }// FIM DA CLASSE
 }//FIM DO PROJETO
