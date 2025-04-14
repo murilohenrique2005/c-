@@ -166,8 +166,9 @@
             this.CodAtividade.Location = new System.Drawing.Point(474, 239);
             this.CodAtividade.Mask = "9999";
             this.CodAtividade.Name = "CodAtividade";
-            this.CodAtividade.Size = new System.Drawing.Size(128, 26);
+            this.CodAtividade.Size = new System.Drawing.Size(261, 26);
             this.CodAtividade.TabIndex = 12;
+            this.CodAtividade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CodAtividade.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.CodAtividade_MaskInputRejected);
             // 
             // Turma
